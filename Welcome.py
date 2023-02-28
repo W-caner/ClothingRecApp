@@ -23,7 +23,7 @@ st.markdown(
     
     **👈 Switching tabs from the sidebar** to see  of what Streamlit can do!
     ### Want can you do?
-    - Browse and choose clothes, which in the "[Clothing shop]((https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/Clothing_Shop))" tab
+    - Browse and choose clothes, which in the "[Clothing shop]((https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/Clothing_shop))" tab
     - Mark your favorite clothes to the cart, or remove it, which in the "[My cart](https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/My_Cart)" tab
     - Get recommendation, this function also in the "[My cart](https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/My_Cart)" tab
     ### See more information!
