@@ -83,7 +83,9 @@ with st.expander("Click here to expand /collapsed recommendation", expanded= Tru
         
     st.session_state.reclst = reclst.copy()
     # if len(st.session_state.cart)!=0:
-        # likeclass = sorted(Counter(res[cart]).items(), key= lambda x:x[0], reverse= True)[0][0]
+        # likeclass = sorted(Counter(res[st.session_state.cart]).items(), key= lambda x:x[1], reverse= True)[0][0]
+        # st.write(Counter(res[st.session_state.cart]))
+        # st.write(likeclass)
         # reclst.extend(np.random.choice(np.setdiff1d(np.argwhere(res==likeclass).flatten(), np.array(st.session_state.shown)), size=3, replace= False))
     # st.session_state.shown.extend(reclst)   
     
@@ -110,6 +112,7 @@ with st.expander("Click here to expand /collapsed recommendation", expanded= Tru
                     elif not agree and pic_idx in st.session_state.cart:
                         st.session_state.reclst.pop(st.session_state.cart.index(pic_idx))
                         st.session_state.cart.remove(pic_idx)
+                        # st.session_state.shown.remove(pic_idx)
                         st.experimental_rerun()
                         
 # st.write(st.session_state.cart)
