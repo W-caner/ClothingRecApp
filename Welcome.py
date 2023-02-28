@@ -11,25 +11,25 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.write("# Welcome to Clothing-Rec App! 🎉")
+# tab1, tab2 = st.columns(2)
+# with tab1:
+st.write("# Welcome to Clothing-Rec App! 💕")
 
 # st.sidebar.success("Select a demo above.")
 st.markdown(
     """
     Clothing-Rec App is an open-source app built by streamlit, which that can be viewed as a simple demo of the online shopping platform,
-     with recommendations using the K-means and the K-nearest neighbor algorithm.
+    with recommendations using the K-means and the K-nearest neighbor algorithm. (Also my Assignment ^_^ )
     
     **👈 Switching tabs from the sidebar** to see  of what Streamlit can do!
     ### Want can you do?
-    - Check out [streamlit.io](https://streamlit.io)
-    - Jump into our [documentation](https://docs.streamlit.io)
-    - Ask a question in our [community
-        forums](https://discuss.streamlit.io)
+    - Browse and choose clothes, which in the "[Clothing shop]((https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/Clothing_Shop))" tab
+    - Mark your favorite clothes to the cart, or remove it, which in the "[My cart](https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/My_Cart)" tab
+    - Get recommendation, this function also in the "[My cart](https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/My_Cart)" tab
     ### See more information!
-    - Use a neural net to [analyze the Udacity Self-driving Car Image
-        Dataset](https://github.com/streamlit/demo-self-driving)
-    - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+    - Series of graphs also provided to show the algorithmic process, visit by clicking the "[Show Analysis](https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/Show_Analysis)" tab
+    - The project is open source on github at [https://github.com/W-caner/ClothingRecApp.git](https://github.com/W-caner/ClothingRecApp.git)
     
-    # [GETTING START NOW!](http://localhost:8501/Clothing_shop)
+    # [GETTING START NOW!](https://w-caner-clothingrecapp-welcome-2g8n9r.streamlit.app/Clothing_shop)
 """
 )
